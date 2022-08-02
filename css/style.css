@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(239, 237, 237);
+}
+nav {
+    position: relative;
+    top: 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.nav-item {
+    display: inline-block;
+    position: relative;
+    left: 200px; 
+    top: 10px;   
+    margin: 0 20px;
+    color: rgb(99, 95, 95);
+}
+.nav-item span {
+    color: #000;
+    font-weight: 900;
+}
+.btn1 {
+    position: relative;
+    left: 850px;
+    bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-color: rgb(87, 163, 222);
+    color: rgb(87, 163, 222);
+    border-radius: 10px;
+}
+.logo {
+    position: relative;
+    left: 100px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.left1 {
+    position: relative;
+    left: 100px;
+    width: 500px;
+    top: 60px;
+}
+.left1 h1 {
+    font-size: 40px;
+}
+.left1 p {
+    color: rgb(104, 102, 102);
+    line-height: 1.4;
+    padding-top: 10px;
+}
+.right1 {
+    position: relative;
+    left: 220px;
+    bottom: 30px;
+}
+button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #52c3e3; /* Green */
+    color: white;
+  }
+  .btn2 {
+    position: relative;
+    top: 20px;
+  }
+.section2
+{
+    display: flex;
+    position: relative;
+    top: 100px;
+    padding-bottom: 200px;
+}
+.right2 
+{
+    position: relative;
+    left: 350px;
+}
+.right2 h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.right2 p {
+    line-height: 1.4;
+    color: rgb(91, 89, 89);
+    padding-bottom: 15px;
+}
+.left2 {
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding-bottom: 50px;
+}
+.left3 {
+    position: relative;
+    left: 100px;
+    width: 500px;
+    top: 20px;
+}
+.left3 h1 {
+    font-size: 40px;
+}
+.left3 p {
+    color: rgb(97, 95, 95);
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.btn3 {
+    position: relative;
+    top: 20px;
+}
+.right3 {
+    position: relative;
+    left: 220px;
+    bottom: 30px;
+}
+.headpart4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.headpart4 h1 {
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+}
+.headpart4 p {
+    color: rgb(133, 129, 129);
+    position: relative;
+    top: 10px;
+    line-height: 1.4;
+    font-size: 20px;
+}
+.upsection {
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+    left: 100px;
+}
+.bottomsection {
+    display: flex;
+    padding-bottom: 40px;
+    position: relative;
+    left: 100px;
+}
+.box4 {
+    width: 300px;
+    height: 200px;
+    padding-right: 50px;
+}
+.box4 p {
+    color: rgb(137, 136, 136);
+    line-height: 1.6;
+    padding-top: 20px;
+}
+.box4 h1 {
+    padding-top: 10px;
+}
+.section5 {
+    background-color: #52c3e3;
+    padding-bottom: 100px;
+}
+.flexible {
+    position: relative;
+    top: 40px;
+    left: 450px;
+    color: #fff;
+}
+.packs {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+.pack {
+    background-color: #fff; 
+    border-radius: 8px; 
+    height: 500px; 
+}
+.tick {
+    position: relative;
+    left: 1px;
+}
+.p1 {
+    position: relative;
+    right: 30px;
+}
+.p2 {
+    position: relative;
+    right: 15px;
+}
+.pack .up p {
+
+color: #bbb;
+font-size: 13px;
+padding-left: 15px;
+padding-bottom: 5px;
+
+} 
+.pack .up h1 { 
+    padding-left: 15px;
+}
+    
+.popular {
+    color:#fff;
+    padding-left: 15px;
+    
+    } 
+.pack .bg {
+    background-color: #000;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+.pack ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.pack ul li span {
+    fill: green;
+    position: relative;
+    right: 15px;
+}
+.pack ul {
+    position: relative;
+    top: 20px;
+}
+.price {
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+.price h1 {
+    position: relative;
+    left: 45px;
+    font-weight: 200;
+}
+.dollar {
+    font-weight: bold;
+}
+.price p {
+    text-align: center;
+}
+.plan {
+    position: relative;
+    left: 60px;
+}
+.highlight {
+    background-color: #52c3e3;
+    color: #000;
+}
+.section6 {
+    padding-top: 100px;    
+}
+.hpart {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.hpart p {
+    color: rgb(114, 110, 110);
+}
+.custup {
+    display: flex;
+    width: 1000px;
+    position: relative;
+    left: 150px;
+}
+.custdown {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    position: relative;
+    left: 150px;
+    
+}
+.customer 
+{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgb(112, 109, 109);
+    height: 200px;
+}
+.c1 {
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+}
+.c3 {
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+}
+.c2 {
+    position: relative;
+    right: 20px;
+    bottom: 40px;
+}
+.c4 {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+.customer p {
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(115, 112, 112);
+}
+.name {
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+.custimg {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 90px;
+}
+.section7 {
+    position: relative;
+    top: 120px;
+}
+.upperpart {
+    background-color: #52c3e3;
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+    color: #fff;
+}
+.right7 {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.right7 button {
+    background-color: #52c3e3;
+    color: #fff;
+    border-color: #fff;
+}
+.lowerpart {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo p {
+    color: rgb(111, 110, 110);
+}
+.z ul li:first-child {
+    font-weight: 900;
+    color: #000;
+}
+.bold1 {
+    font-weight: 900;
+}
+.z ul li {
+    list-style-type: none;
+    line-height: 1.6;
+    color: rgb(122, 120, 120);
+}
+.icon {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    right: 45px;
+}
+.icon img {
+    width: 30px;
+}
