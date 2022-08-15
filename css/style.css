@@ -472,3 +472,211 @@ left: 60px;
 .icon img {
     width: 30px;
 }
+@media screen and (max-width:1230px) {
+    .logo {
+        display: none;
+    }
+    .btn1 {
+        position: relative;
+        left: 770px;
+    }
+    .navitems{
+        position: relative;
+        right: 100px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left1 {
+        text-align: center;
+        margin-left: 50px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .left2 img {
+        width: 400px;
+        height: 400px;
+    }
+    .left2{
+        margin-left: 100px;
+    }
+    .right2{
+        text-align: center;
+        width: 700px;
+        position: relative;
+        left: 70px;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left3 {
+        text-align: center;
+        width: 700px;
+    }
+    .headpart4{
+        display: inline;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        left: -100px;
+    }
+    .headpart4 p {
+        margin-left: 400px;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+    .upsection,.bottomsection{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .b3,.b6{
+        position: relative;
+        top: 50px;
+    }
+    .flexible{
+        position: relative;
+        left: 200px;
+    }
+    .packs{
+        display: flex;
+        width: 600px;
+        height: 1100px;
+        flex-wrap: wrap;
+    }
+    .p3 {
+        position: relative;
+        top: 30px;
+    }
+    .custup,.custdown{
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+    }
+    .c1,.c2,.c3,.c4{
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    .logo {
+        display: none;
+    }
+    /* .z {
+        display: flex;
+        flex-direction: row;
+    } */
+    .lowerpart{
+        justify-content: space-around;
+    }
+    .Socialmedia {
+        display: none;
+    }
+    .btn7 {
+        position: relative;
+        left: -750px;
+        top: 100px;
+    }
+}
+@media screen and (max-width:735px) {
+    .btn1{
+        display: none;
+    }
+    .nav-item{
+        font-size: 13px;
+        margin-left: 0px;
+    }
+    .right1 img{
+        width: 300px;
+        margin-left: -100px;
+    }
+    .left1 h1{
+        font-size: 30px;
+        margin-left: -400px;
+    }
+    .left1 p{
+        margin-left: -400px;
+    }
+    .btn2 {
+        margin-left: -400px;
+    }
+    .left2 img {
+        width: 300px;
+        margin-left: -100px;
+    }
+    .right2 h1{
+        font-size: 30px;
+        margin-left: -400px;
+    }
+    .right2 p{
+        margin-left: -400px;
+    }
+    .right3 img{
+          width: 300px;
+          margin-left: -150px;
+    }
+    .btn3 {
+        margin-left: -20px;
+    }
+    .left3{
+       margin-left: -250px;
+    }
+    .headpart4 p{
+        font-size: 15px;
+        width: 400px;
+        margin-left: 200px;
+       text-align: start;
+    }
+    .headpart4 h1{
+        margin-left: -50px;
+    }
+    .packs {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: flex-start;
+     }
+     .p2,.p3{
+        position: relative;
+        left: -100px;
+        top: 8px;
+     }
+     .flexible{
+        position: relative;
+        left: 50px;
+        font-size: 25px;
+     }
+     .hpart {
+        width: 500px;
+     }
+     .hpart h1,p {
+        font-size: 15px;
+        margin-left: -30px;
+     }
+     .customer {
+        position: relative;
+        left: -200px;
+     }
+     .upperpart {
+        position: relative;
+        right: 200px;
+     }
+     .upperpart .left7 {
+        margin-left: -30px;
+     }
+     .left7 p {
+        margin-left: 100px;
+        font-size: 10px;
+     }
+     .right7 {
+        position: relative;
+        left: 90px;
+     }
+     .lowerpart{
+        justify-content: space-evenly;
+     }
+
+}
